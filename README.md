@@ -21,6 +21,11 @@ Crie sua conta, logue, e vá em:
 Guarde essas keys, é com elas que você irá se autenticar no back-end.
 A primeira key é a principal, a outra é para casos mais específicos.
 
+## Instalação
+```python
+pip install pagarme-python
+```
+
 ## Autenticação
 
 ```python
