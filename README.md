@@ -4,6 +4,8 @@ A pagarme é uma plataforma de pagamento online brasileira. Foi fundada por 2 mo
 
 A API funciona basicamente com requisições http (GET, POST, ETC) usando a biblioteca deles que tem suporte para algumas linguagens, como python e javascript.
 
+Geralmente a gente usa uma plataforma de pagamento para ela lidar com os dados sensíveis de cartão de crédito, fazer toda a segurança a gente só se preocupar mesmo com o desenvolvimento da nossa aplicação.
+
 
 # API
 
@@ -150,7 +152,7 @@ print(trx)
 
 ## Transação
 
-Pegando os dados
+Pegando os dados (tudo isso ta dentro de uma views, processando o post request)
 
 ```python
 card_number = request.POST.get('card-number')
