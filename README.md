@@ -187,7 +187,7 @@ Criando dicionario
 
 ```python
 trx_data = {
-    'capture' : 'false',
+    'capture' : 'false', # eu to passando esse capture aqui porque vou fazer a captura depois (é um detalhe especifico do leve carne), ta explicado na parte do checkout mas esse nao é obrigatório
     # lembrando, o amount precisa ser em centavos e EXATO, não pode ser um numero quebrado
     'amount': str(int(valor_centavos)),
     'card_number': card_number,
