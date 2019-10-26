@@ -308,13 +308,16 @@ Para o deploy definitivo, para produção, o que precisa mudar é apenas a API_K
  
 A pagarme tem uma pagina de checkout pronta aqui: https://docs.pagar.me/docs/inserindo-o-checkout
 
-É por exemplo aí que voce pode usar o outra key da pagarme, digamos que a principal você nao pode expor NUNCA, mas aí pode ir no front as vezes, como no exemplo do site. 
+É, por exemplo, aí que você pode usar a outra key da pagarme, digamos que a ley principal você não pode expor NUNCA, mas essa aí pode ir no front as vezes, num js, como no exemplo do site. 
 
 Ela cria um modal que se conecta com o site deles e faz todo o processo de transação, retornando um ID, que é o id da transação, é dahora, tem toda uma animação de sucesso e erro.
 
 ##### PS IMPORTANTE, CASO VOCÊ PRECISE FAZER UMA AUTORIZAÇÃO PRÉVIA, PARA DEPOIS FAZER A CAPTURA DA TRANSAÇÃO, VOCÊ NÃO PODE USAR ESSE CHECKOUT, VOCE TEM QUE FAZER A TRANSAÇÃO TODINHA NO BACKEND
+#### mas se você não precisa fazer isso, não esquenta a cabeça
 
-é isso galerinha, leiam a doc deles, é bem boa, e tentem ir se baseando na documentação deles, porque pode ser que alguma atualização mude alguma coisa e tals, mas é isso, espero ter dado um panorama melhor sobre essa plataforma de pagamento, bjs no coração de vocês e bora codar :3
+é isso galerinha, leiam a doc deles, é bem boa, e tentem ir se baseando na documentação deles, porque pode ser que alguma atualização mude alguma coisa e tals, mas é isso, espero ter dado um panorama geral melhor sobre essa plataforma de pagamento, bjs no coração de vocês e
+
+bora codar :3
 
 
 
